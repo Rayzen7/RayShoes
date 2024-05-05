@@ -144,7 +144,6 @@
 
     .cartitems-down {
         flex-direction: column-reverse;
-        transform: translateY(-20%);
     }
 
     .cartitems-total {
