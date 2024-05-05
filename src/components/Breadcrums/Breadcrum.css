@@ -1,0 +1,18 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 170px;
+    text-transform: capitalize;
+}
+
+/* handphone */
+@media (min-width: 320px) and (max-width:800px) {
+    .breadcrum {
+        margin: 20px 10px;
+        font-size: 10px;
+    }
+}

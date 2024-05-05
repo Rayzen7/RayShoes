@@ -1,0 +1,39 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.new-collections h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.new-collections hr {
+    width: 200px;
+    height: 10px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* handphone */
+@media (min-width: 320px) and (max-width:800px) {
+    .new-collections h1 {
+        font-size: 26px;
+    }
+
+    .collections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
